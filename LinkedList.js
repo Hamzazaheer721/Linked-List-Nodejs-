@@ -1,6 +1,6 @@
 const Node = require("./Node");
 
-// Linken list
+// Linked list
 class LinkedList {
   constructor() {
     (this.head = null), (this.size = 0);
@@ -8,7 +8,6 @@ class LinkedList {
 
   //inserting at the end
   insert(data) {
-    //if null
     let node = new Node(data, this.head);
     if (this.size == 0) {
       this.head = node;
