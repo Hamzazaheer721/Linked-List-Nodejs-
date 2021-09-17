@@ -25,7 +25,6 @@ class LinkedList {
   }
 
   print() {
-    console.log("hey");
     let current = this.head;
     while (current) {
       console.log(current.data);
